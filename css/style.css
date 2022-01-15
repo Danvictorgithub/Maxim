@@ -490,3 +490,103 @@ img {vertical-align: middle;}
   color:yellow;
   border: 3px solid yellow;
 }
+.pic-slider {
+  color:white;
+  background-color: black;
+  padding: 25px 10px;
+}
+.slider-image {
+  height: 85vh;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+.slider-text {
+  font-size: xx-large;
+  margin-left:100px;
+  margin-bottom: 25px;
+}
+#slider {
+	overflow: hidden;
+  margin: 10px 200px;
+  margin-bottom: 0px;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+.mc-content {
+  margin-bottom: 25px;
+}
+.mc-content-text {
+  margin-top: 12px;
+  padding-left: 75px;
+  background-color: yellow;
+  width: 140px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.cast-card {
+  height: 475px;
+  background-color: #292929;
+  color:white;
+  margin: 20px;
+  transition: all .3s ease-in-out;
+}
+.cast-card:hover {
+  box-shadow: 0 10px 20px 10px gray;
+}
+.cast-cards {
+  display: flex;
+  justify-content: center;
+}
+.cast-image {
+  height: 400px;
+  width:260px;
+  object-fit: cover;
+}
+.starring-text {
+  padding:10px;
+}
+.actor-starring {
+  font-weight: 900;
+}
+.starring-as {
+  color: #999999;
+}
