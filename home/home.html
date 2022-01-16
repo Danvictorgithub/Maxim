@@ -10,17 +10,19 @@
 </head>
 <body>
     <div class="header">
-        <div class="header-text">
+        <a class="link" href="#home">
+            <div class="header-text">
             <img class="triangle-logo" src="../img/triangle-logo.png">
             <span class="main-yellow">M</span>axiM
-        </div>
+            </div>
+        </a>
         <ul class="right-nav">
-            <li>About |</li>
-            <li>Home |</li>
-            <li>Movies</li>
+            <a class="link" href="../index.html"><li>About |</li></a>
+            <a class="link" href="#home"><li>Home |</li></a>
+            <a class="link" href="#featured-movie"><li>Movies</li></a>
         </ul>
     </div>
-    <div class="slideshow-container">
+    <div id="home" class="slideshow-container">
         <div class="mySlides fade">
           <div class="numbertext">1 / 3</div>
           <img class="imageslide" src="../img/movie-slide1.jpg">
@@ -44,7 +46,7 @@
         </div>
     <div class="content-feature">
         <div class="sidebar">
-            <h2 class="sidetext">Featured Movies<hr></h2>
+            <h2 id="featured-movie" class="sidetext">Featured Movies<hr></h2>
         </div>
         <div class="movie-items">
             <div class="card">
