@@ -267,7 +267,7 @@ img {vertical-align: middle;}
   box-shadow: 20px 16px rgba(0, 0, 255, .2);
   border-radius: 0 0 5px 5px;
 	overflow: hidden;
-  margin: 12px 36px;
+  margin: 12px 12px;
 }
 .card-image {
   width: 290px;
