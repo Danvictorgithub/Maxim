@@ -270,6 +270,7 @@ img {vertical-align: middle;}
   margin: 12px 12px;
 }
 .card-image {
+  flex:1;
   width: 290px;
   height: 420px;
   object-fit: cover;
@@ -292,17 +293,22 @@ img {vertical-align: middle;}
   color: #BABABA;
 }
 .movie-title {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 61px;
   color: white;
   font-size: 20px;
   font-weight: bolder;
   text-align: center;
 }
 .movie-items {
+  gap: 24px;
   width: 100%;
   padding: 32px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 .top-content-div {
   padding: 10px 100px;
